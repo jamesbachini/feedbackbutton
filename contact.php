@@ -3,7 +3,6 @@ header("Access-Control-Allow-Origin: *");
 
 $to = 'your@email.com';
 
-
 $from = @trim(stripslashes($_POST['email'])); 
 if (isset($_POST['name'])) {
 	$name = @trim(stripslashes($_POST['name'])); 
